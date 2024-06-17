@@ -40,7 +40,7 @@ This is the <> edition of this workshop, jointly organised by the VIB and ELIXIR
 > To see this document as an interactive LiaScript rendered version, click on the
 > following link/badge:
 >
-> [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/nextflow-workshop/2024-liascript/nextflow.md)
+> [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/brain-mosaic-course/main/README.md)
 
 ### Lesson overview
 
