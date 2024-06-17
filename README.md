@@ -89,11 +89,13 @@ This is the <> edition of this workshop, jointly organised by the VIB and ELIXIR
 
 ### Authors
 
-@[orcid(Cagatay)](https://orcid.org/XXXX), 
+@[orcid(Cagatay Aydin)](https://orcid.org/0000-0002-7216-1079), 
 
 ### Contributors
 
-@[orcid(Contributors)](https://orcid.org/XXXX)
+@[orcid(Asli Ayaz)](https://orcid.org/0000-0002-6276-2516)
+@[orcid(Kacper Kondrakiewicz)](https://orcid.org/0000-0003-2600-1418)
+@[orcid(Asli Ayaz)](https://orcid.org/0000-0003-4477-6620)
 
 </section>
 
