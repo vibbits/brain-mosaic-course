@@ -24,21 +24,22 @@ link:     https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&disp
 link:     https://fonts.googleapis.com/css2?family=Open+Sans&display=swap
 link:     https://raw.githubusercontent.com/vibbits/material-liascript/master/vib-styles.css
 
-@def workshop_name = "Neuropixels"
-@def workshop_edition = "1st"
-
 @orcid: [@0](@1)<!--class="orcid-logo-for-author-list"-->
 
+@tutor: Neuropixels
+
+@edition: 1st
 -->
+
 
 # Workshop Brain Mosaic
 
 <section>
-Hello and welcome to our {{workshop_name}} workshop! We are very happy to have you here.
+Hello and welcome to our @tutor workshop! We are very happy to have you here.
 
-This is the {{workshop_edition}} edition of this workshop, jointly organised by the VIB and ELIXIR Belgium.
+This is the @edition edition of this workshop, jointly organised by the VIB and ELIXIR Belgium.
 
-> We are using the interactive Open Educational Resource online/offline course infrastructure called LiaScript. 
+> We are using the interactive Open Educational Resource online/offline course infrastructure called LiaScript.
 > It is a distributed way of creating and sharing educational content hosted on github.
 > To see this document as an interactive LiaScript rendered version, click on the
 > following link/badge:
@@ -49,14 +50,14 @@ This is the {{workshop_edition}} edition of this workshop, jointly organised by 
 
 > <i class="fa fa-bookmark"></i> **Description**  
 > This is our interactive hands-on course about .
-> 
+>
 > <i class="fa fa-arrow-left"></i> **Prerequisites**  
 > To be able to follow this course, learners should have knowledge in:
 >
 > 1. Basic knowlegde of HTML  
 > 2. Basic knowledge of structured data as JSON-LD objects
 > 3. Being comfortable working with the CLI (command-line interface) in a Linux-based environment.  
-> 
+>
 > <i class="fa fa-arrow-right"></i> **Learning Outcomes:**  
 > By the end of the course, learners will be able to:
 >
@@ -64,17 +65,17 @@ This is the {{workshop_edition}} edition of this workshop, jointly organised by 
 > 2. Execute local and publicly available pipelines with different executors and environments
 > 3. Write and run Nextflow pipelines
 > 4.Write and modify config files for storing parameters related to computing hardware as well as pipeline dependent parameters
-> 
+>
 > <i class="fa fa-user"></i> **Target Audience:** Researchers, trainers, training providers
-> 
+>
 > <svg xmlns="http://www.w3.org/2000/svg" height="14" width="16" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M384 64c0-17.7 14.3-32 32-32H544c17.7 0 32 14.3 32 32s-14.3 32-32 32H448v96c0 17.7-14.3 32-32 32H320v96c0 17.7-14.3 32-32 32H192v96c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h96V320c0-17.7 14.3-32 32-32h96V192c0-17.7 14.3-32 32-32h96V64z"/></svg> **Level:** Beginner  
 >
 > <i class="fa fa-lock"></i> **License:** [Creative Commons Attribution 4.0 International  License](https://creativecommons.org/licenses/by/4.0/)
-> 
+>
 > <i class="fa fa-money-bill"></i> **Funding:** This project has received funding from the ELIXIR Programme 2022-2023.
-> 
+>
 > <i class="fa fa-hourglass"></i> **Time estimation**: 120 minutes
-> 
+>
 > <i class="fa fa-envelope-open-text"></i> **Supporting Materials**:
 >
 >  1. [Exercises and solutions](https://github.com/vibbits/nextflow-workshop)
@@ -82,7 +83,7 @@ This is the {{workshop_edition}} edition of this workshop, jointly organised by 
 >
 > <i class="fa fa-asterisk"></i> **Requirements:** The (technical) installation requirements are described in the [installations](https://vibbits-nextflow-workshop.readthedocs.io/en/latest/installations.html) section.
 >
-> <i class="fa fa-life-ring"></i> **Acknowledgement**: 
+> <i class="fa fa-life-ring"></i> **Acknowledgement**:
 >
 > * [ELIXIR Belgium](https://www.elixir-belgium.org/)
 > * [VIB Technologies](https://www.vib.be/)
@@ -92,7 +93,7 @@ This is the {{workshop_edition}} edition of this workshop, jointly organised by 
 
 ### Authors
 
-@[orcid(Cagatay Aydin)](https://orcid.org/0000-0002-7216-1079), 
+@[orcid(Cagatay Aydin)](https://orcid.org/0000-0002-7216-1079),
 
 ### Contributors
 
@@ -128,14 +129,14 @@ Schedule day 1:
 
 Please read this page carefully **before** the start of the workshop.
 
-There are two options for following this workshop: 
+There are two options for following this workshop:
 
   1. <>
   2. <>
 
 ### Provided infrastructure
 
-We will be using the Gent section of the [Flemish Supercomputing Center](https://www.vscentrum.be/), you should have already recieved instructions for creating an account. 
+We will be using the Gent section of the [Flemish Supercomputing Center](https://www.vscentrum.be/), you should have already recieved instructions for creating an account.
 Specifically, we will be using the [Interactive and Debug](https://docs.hpc.ugent.be/Linux/interactive_debug/) cluster. The cluster is already equipped with the latest version of Nextflow, and Apptainer.
 
 To connect to the cluster, there are two options. For the first option, there is no local setup needed, we will use the Web Interface to access the Gent VSC.
@@ -231,7 +232,7 @@ Here are some great tips for learning and to get inspired for writing your own p
 
 *About ELIXIR Training Platform*
 
-The ELIXIR Training Platform was established to develop a training community that spans all ELIXIR member states (see the list of Training Coordinators). It aims to strengthen national training programmes, grow bioinformatics training capacity and competence across Europe, and empower researchers to use ELIXIR's services and tools. 
+The ELIXIR Training Platform was established to develop a training community that spans all ELIXIR member states (see the list of Training Coordinators). It aims to strengthen national training programmes, grow bioinformatics training capacity and competence across Europe, and empower researchers to use ELIXIR's services and tools.
 
 One service offered by the Training Platform is TeSS, the training registry for the ELIXIR community. Together with ELIXIR France and ELIXIR Slovenia, VIB as lead node for ELIXIR Belgium is engaged in consolidating quality and impact of the TeSS training resources (2022-23) (https://elixir-europe.org/internal-projects/commissioned-services/2022-trp3).
 
@@ -254,4 +255,3 @@ Authors: @[orcid(Alexander Botzki)](https://orcid.org/0000-0001-6691-4233), @[or
 Technical Editors: Alexander Botzki
 
 License: [![CC BY](img/picture003.jpg)](http://creativecommons.org/licenses/by/4.0/)
-
