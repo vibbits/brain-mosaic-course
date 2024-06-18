@@ -27,12 +27,11 @@ link:     https://raw.githubusercontent.com/vibbits/material-liascript/master/vi
 @orcid: [@0](@1)<!--class="orcid-logo-for-author-list"-->
 
 @tutor: Neuropixels
-
 @edition: 1st
+
 -->
 
-
-# Workshop Brain Mosaic
+# Electrophysiological Signatures: Bridging the Gap from Cellular Dynamics to Brain Disorders
 
 <section>
 Hello and welcome to our @tutor workshop! We are very happy to have you here.
@@ -49,8 +48,8 @@ This is the @edition edition of this workshop, jointly organised by the VIB and 
 ### Lesson overview
 
 > <i class="fa fa-bookmark"></i> **Description**  
-> This is our interactive hands-on course about .
->
+> This course consist of short tutorials related to current state of art using Neuropixels technology following with our interactive hands-on course about how to visualize electrophysiological data.
+
 > <i class="fa fa-arrow-left"></i> **Prerequisites**  
 > To be able to follow this course, learners should have knowledge in:
 >
