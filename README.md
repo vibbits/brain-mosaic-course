@@ -24,16 +24,17 @@ link:     https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&disp
 link:     https://fonts.googleapis.com/css2?family=Open+Sans&display=swap
 link:     https://raw.githubusercontent.com/vibbits/material-liascript/master/vib-styles.css
 
-@orcid: [@0](@1)<!--class="orcid-logo-for-author-list"-->
-
+@def workshop_name = "Neuropixels"
+@def workshop_edition = "1st"
+@orcid: [@0](@1)<!--class="orcid-logo-for-author-list"
 -->
 
 # Workshop Brain Mosaic
 
 <section>
-Hello and welcome to our <> workshop! We are very happy to have you here.
+Hello and welcome to our {{workshop_name}} workshop! We are very happy to have you here.
 
-This is the <> edition of this workshop, jointly organised by the VIB and ELIXIR Belgium.
+This is the {{workshop_edition}} edition of this workshop, jointly organised by the VIB and ELIXIR Belgium.
 
 > We are using the interactive Open Educational Resource online/offline course infrastructure called LiaScript. 
 > It is a distributed way of creating and sharing educational content hosted on github.
@@ -45,7 +46,7 @@ This is the <> edition of this workshop, jointly organised by the VIB and ELIXIR
 ### Lesson overview
 
 > <i class="fa fa-bookmark"></i> **Description**  
-> This is our interactive hands-on course about efficient use of the ELIXIR TeSS platform.
+> This is our interactive hands-on course about .
 > 
 > <i class="fa fa-arrow-left"></i> **Prerequisites**  
 > To be able to follow this course, learners should have knowledge in:
@@ -101,9 +102,9 @@ This is the <> edition of this workshop, jointly organised by the VIB and ELIXIR
 
 ## General context
 
-Welcome to our <> workshop! We are very happy to have you here.
+Welcome to our {{workshop_name}} workshop! We are very happy to have you here.
 
-This is the <> edition of this workshop, jointly organised by the VIB Bioinformatics Core and ELIXIR Belgium.
+This is the {{workshop_edition}} edition of this workshop, jointly organised by the VIB Bioinformatics Core and ELIXIR Belgium.
 
 - The first session (12 & 13 October 2023) is dedicated to Containers (Docker & Singularity) which are great tools for code portability and reproducibility of your analysis. You will learn how to use containers and how to build a container from scratch, share it with others and how to re-use and modify existing containers.
 
