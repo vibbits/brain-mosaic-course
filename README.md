@@ -26,7 +26,9 @@ link:     https://raw.githubusercontent.com/vibbits/material-liascript/master/vi
 
 @def workshop_name = "Neuropixels"
 @def workshop_edition = "1st"
-@orcid: [@0](@1)<!--class="orcid-logo-for-author-list"
+
+@orcid: [@0](@1)<!--class="orcid-logo-for-author-list"-->
+
 -->
 
 # Workshop Brain Mosaic
