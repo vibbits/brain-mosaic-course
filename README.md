@@ -27,9 +27,7 @@ link:     https://raw.githubusercontent.com/vibbits/material-liascript/master/vi
 @orcid: [@0](@1)<!--class="orcid-logo-for-author-list"-->
 
 @tutor: Neuropixels
-@edition: 1st
-
--->
+@edition: 1st -->
 
 # Electrophysiological Signatures: Bridging the Gap from Cellular Dynamics to Brain Disorders
 
