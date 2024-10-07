@@ -45,8 +45,23 @@ This is the @edition edition of this workshop, jointly organised by the VIB and 
 
 ### Lesson overview
 
-> <i class="fa fa-bookmark"></i> **Description**  
+> <i class="fa fa-bookmark"></i> **Course Description**  
 > This course consist of short tutorials related to current state of art using Neuropixels technology following with our interactive hands-on course about how to visualize electrophysiological data.
+
+> <i class="fa fa-bookmark"></i> **Hardware Overview** 
+
+> Neuropixels' recording hardware is modular, with key components including probe (shank and base), headstage, neuropixels module
+
+> For more details, check the [Neuropixels Manual](https://www.neuropixels.org/_files/ugd/832f20_ba7f3e9e639b49809458cf64d76abdcc.pdf).
+
+> More details about hardware requirements can be found in the [SpikeGLX system requirements](https://github.com/billkarsh/SpikeGLX/blob/master/Markdown/SystemRequirements_PXI.md).
+
+> <i class="fa fa-bookmark"></i> **Software Overview** 
+
+> SpikeGLX
+
+> Open Ephys
+
 
 > <i class="fa fa-arrow-left"></i> **Prerequisites**  
 > To be able to follow this course, learners should have knowledge in:
