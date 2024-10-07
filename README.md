@@ -31,6 +31,7 @@ link:     https://raw.githubusercontent.com/vibbits/material-liascript/master/vi
 
 # Electrophysiological Signatures: Bridging the Gap from Cellular Dynamics to Brain Disorders
 
+
 <section>
 Hello and welcome to our @tutor workshop! We are very happy to have you here.
 
@@ -42,6 +43,66 @@ This is the @edition edition of this workshop, jointly organised by the VIB and 
 > following link/badge:
 >
 > [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/brain-mosaic-course/main/README.md)
+
+</section>
+
+## General context
+This workshop dives into Neuropixels recordings, a powerful technique for capturing neural activity from freely moving animals over extended periods. Researchers of all experience levels will learn the entire workflow, from Neuropixels technology basics to data analysis, gaining expertise from leading experts in the field. By attending, you can expand your research capabilities to study complex behaviors and track brain disorders in a more natural setting, while joining a collaborative community to accelerate your discoveries.
+
+## Target audience
+
+Technical personel, PhD, PostDoc, Industry
+
+## Objectives
+
+The participants;
+
+will be able to recall the fundamental principles of Neuropixels technology.
+will demonstrate comprehension of the methods and challenges involved in performing acute electrophysiological recordings in awake, freely moving animals.
+will be able to learn current techniques for chronic implants using Neuropixels probes.
+will analyze data obtained from long-term chronic implants to identify patterns and anomalies, utilizing the provided analysis primer.
+
+## Required skills
+
+Software: Python (basic)
+
+## Software demonstrated
+
+Kilosort (https://github.com/MouseLand/Kilosort)
+Neuropixels Trajectory Explorer (https://github.com/petersaj/neuropixels_trajectory_explorer)
+Herbs (https://github.com/Whitlock-Group/HERBS)
+Pinpoint (https://github.com/VirtualBrainLab/Pinpoint)
+Spikeglx (https://billkarsh.github.io/SpikeGLX/)
+Openephys (https://open-ephys.org/)
+EMD (https://github.com/janelia-TDHarrisLab/Yuan-Neuron_Tracking)
+Unitmatch (https://github.com/janelia-TDHarrisLab/Yuan-Neuron_Tracking)
+
+## Trainers
+Cagatay Aydin - Nerf Expert Unit Member
+Asli Ayaz - Nerf Expert Unit Member
+Kacper Kondrakiewicz - Haesler Lab
+Shahriar Hosseinjany - Bonin Lab
+Practical info
+Date
+
+9 October 2024
+
+## Location
+
+Imec tower (visits)
+Remisebosweg 1
+3001 Leuven
+Belgium
+More info
+
+Room
+
+Imec tower room 1A
+
+
+
+
+
 
 ### Lesson overview
 
@@ -63,23 +124,6 @@ This is the @edition edition of this workshop, jointly organised by the VIB and 
 > Open Ephys
 
 
-> <i class="fa fa-arrow-left"></i> **Prerequisites**  
-> To be able to follow this course, learners should have knowledge in:
->
-> 1. Basic knowlegde of HTML  
-> 2. Basic knowledge of structured data as JSON-LD objects
-> 3. Being comfortable working with the CLI (command-line interface) in a Linux-based environment.  
->
-> <i class="fa fa-arrow-right"></i> **Learning Outcomes:**  
-> By the end of the course, learners will be able to:
->
-> 1. Understand Nextflow's basic concepts & syntax: channels, processes, modules, workflows, etc.
-> 2. Execute local and publicly available pipelines with different executors and environments
-> 3. Write and run Nextflow pipelines
-> 4.Write and modify config files for storing parameters related to computing hardware as well as pipeline dependent parameters
->
-> <i class="fa fa-user"></i> **Target Audience:** Researchers, trainers, training providers
->
 > <svg xmlns="http://www.w3.org/2000/svg" height="14" width="16" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M384 64c0-17.7 14.3-32 32-32H544c17.7 0 32 14.3 32 32s-14.3 32-32 32H448v96c0 17.7-14.3 32-32 32H320v96c0 17.7-14.3 32-32 32H192v96c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h96V320c0-17.7 14.3-32 32-32h96V192c0-17.7 14.3-32 32-32h96V64z"/></svg> **Level:** Beginner  
 >
 > <i class="fa fa-lock"></i> **License:** [Creative Commons Attribution 4.0 International  License](https://creativecommons.org/licenses/by/4.0/)
@@ -113,114 +157,6 @@ This is the @edition edition of this workshop, jointly organised by the VIB and 
 @[orcid(Kacper Kondrakiewicz)](https://orcid.org/0000-0003-2600-1418)
 @[orcid(Asli Ayaz)](https://orcid.org/0000-0003-4477-6620)
 
-</section>
-
-## General context
-
-Welcome to our {{workshop_name}} workshop! We are very happy to have you here.
-
-This is the {{workshop_edition}} edition of this workshop, jointly organised by the VIB Bioinformatics Core and ELIXIR Belgium.
-
-- The first session (12 & 13 October 2023) is dedicated to Containers (Docker & Singularity) which are great tools for code portability and reproducibility of your analysis. You will learn how to use containers and how to build a container from scratch, share it with others and how to re-use and modify existing containers.
-
-The presentation which goes alongside this material can be found [here](link).
-
-### Schedule
-
-Schedule day 1:
-
-- 9:30 - 11:00 - session
-- 11:00 - 11:15 - break
-- 11:15 - 12:45 - session
-- 12:45 - 13:45 - lunch
-- 13:45 - 15:15 - session
-- 15:15 - 15:30 - break
-- 15:30 - 17:00 - session
-
-## Installations
-
-Please read this page carefully **before** the start of the workshop.
-
-There are two options for following this workshop:
-
-  1. <>
-  2. <>
-
-### Provided infrastructure
-
-We will be using the Gent section of the [Flemish Supercomputing Center](https://www.vscentrum.be/), you should have already recieved instructions for creating an account.
-Specifically, we will be using the [Interactive and Debug](https://docs.hpc.ugent.be/Linux/interactive_debug/) cluster. The cluster is already equipped with the latest version of Nextflow, and Apptainer.
-
-To connect to the cluster, there are two options. For the first option, there is no local setup needed, we will use the Web Interface to access the Gent VSC.
-
-#### Option 1: Web Interface
-
-This utilizes the OnDemand infrastructure at the VSC to launch a web-based version of VSCode for us. Using this, we don't need to make any connections to the clutser other than through the browser.
-
-_If you normally use VSCode locally, this setup is completely seperate and won't have your usual extensions etc._
-
-- Navigate to [https://login.hpc.ugent.be/](https://login.hpc.ugent.be/) and login with your credentials.
-- Select "Interactive Apps" from the top bar -> "Code Server"
-- Fill in the following settings:
-  - Cluster: `donphan (interactive/debug)`
-  - Time: 8 (hours)
-  - Nodes: 1
-  - Cores: 8
-  - Select Path -> $VSC_DATA (on the left)
-  - Click "Launch"!
-- Wait for your job to start -> "Connect to VS Code"
-
-This runs fully in your browser and will continue to run even when your laptop is off etc. Your job will automatically end after 8 hours. **Make sure to save your work.**
-
-#### Option 2: Local Installation
-
-We will be using an SSH connection in VSCode which we can create by following these instructions:
-
-- Download Visual Studio Code ([link](https://code.visualstudio.com/download))
-- Add the following extensions for a seamless integration of Nextflow and the VM in VScode:
-  - In VSCode, navigate to the 'Extensions' tab, search for the SSH remote package and install it:
-  - 'Remote - SSH' (ms-vscode-remote.remote-ssh).
-- Modify your local `.ssh/config` file to add the configuration for the cluster - If you already connect to the Gent VSC with this machine, you don't need to do this
-  - `Ctrl-Shift-P` will bring up the "command palette"
-  - Type `ssh config` and select the option to modify the configuration file (select the first file)
-  - Add the following code to your config file:
-    ```
-    Host login-gent
-        User vscXXXXX # Replace Xs with your VSC ID
-        HostName login.hpc.ugent.be
-        IdentityFile ~/.ssh/id_rsa # This should be replaced with the path to your private key ( windows users might look like this: C:\Users\KrisDavie\Documents\VSC\vsc_id_rsa)
-    ```
-- Start a terminal in VSCode (select Terminal and then New Terminal)
-- Connect to the cluster with the following command: `ssh login-gent`
-- Optional: Start `screen` or `tmux` and do the following in the new terminal - This will keep your session alive even when you disconnect from the cluster
-- Load the modules for connecting to the interactive cluster: `module swap cluster/donphan`
-- Start a job using qsub: `qsub -I -l walltime=08:00:00,nodes=1:ppn=8`
-- Note the node you are connected to (e.g. `node4006.donphan.os`)
-- Add the following code to your config file:
-  ```
-  Host node4006
-      User vscXXXXX # Replace Xs with your VSC ID
-      HostName node4006.donphan.os
-      ProxyCommand ssh login-gent -W %h:%p
-      # On windows you should use
-      # ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe login-gent -W %h:%p
-  ```
-- Finally you can open a this host in VSCode by typing `Ctrl-Shift-P` and selecting `Remote-SSH: Connect to Host...` and selecting the host you just added.
-  - If you didn't run qsub in a screen or tmux session, you will need to use an entire new VSCode window to connect to the host, otherwise when VSCode refreshes, the original connection will be lost and the job will end.
-
-#### Option 3: Custom Installation
-
-You are free to connect to the cluster however you want, but the above 2 methods are the only ones we will support in the session.
-
-### Common Setup
-
-- Install the Nextflow VSCcode Package - This will give you syntax highlighting and linting for Nextflow
-- Open a new terminal within VSCode: Terminal -> New Terminal
-- Create a new folder for the workshop
-- Clone this repository into the folder: `git clone git@github.com:VIBbits/nextflow-workshop.git`
-- Load the nextflow module: `module load Nextflow/23.10.0`
-
-## Citing this lesson
 
 Please cite as:
 
